@@ -10,7 +10,13 @@ hr {
   border-style: solid;
 
 }
-
+li{
+  cursor:default;
+}
+.listEle:hover{
+  color: #af68a4;
+  transition:  1s;
+}
 img.profPic{
   border-radius:50%;
   border: solid black 3px;
@@ -55,6 +61,8 @@ a:hover{
 }
 
 h1:hover{
+  cursor:default;
   color: #af68a4;
   transition:  1s;
+
 }
